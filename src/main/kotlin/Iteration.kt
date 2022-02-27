@@ -5,5 +5,5 @@ fun main() {
     for ((index, element) in list.withIndex()) {
         println("$index: $element")
     }
-    println(joinToString(list, postfix = "^", prefix = "("))
+    println(list.joinToString(postfix = "^", prefix = "("))
 }
